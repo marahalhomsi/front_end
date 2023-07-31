@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>forms</title>
 </head>
-
 <body>
-    <form action="#" method="get">
-        user name: <input type="text" name="user_name" id="1"><br><br>
-        password : <input type="password" name="mypas" id="1"><br><br>
-        <input type="radio" name="gender" id="g1"><label for="g1">Female</label> <br><br>
-        <input type="radio" name="gender" id="g2"> <label for="g2">Male</label> <br><br>
+    <form action=""
+    method="post"
+    enctype="multipart/form-data">
+<fieldset>
+    <legend>fields type :</legend>
+    <div style="padding:20px ;">
+        <input type="hidden" id="custid" name="custid" value="348">
+        <label for="fname ">first name:</label>
+        <input type=" text " id="fname" name="fname">
+
+    </div>
+    <div style="padding: 20px;">
+        <label for="pwd">password:</label>
+        <input type="password" id="pwd" name="pwd">
+
+    </div>
+    <div style="padding: 20px;">
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html" >HTML</label><br>
+
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="javascript" name="fav_language" value="javascript">
+        <label for="javascript">JAVASCRIPT</label>
+    </div>
+<div style="padding: 20px;">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+        <label for="vehicle1">I HAVE A BIKE</label><br>
+
+        <input type="checkbox"  name="vehicle2" value="car" id="vehicle2">
+        <label for="vehicle2">I HAVE A CAR</label><br>
+
+        <input type="checkbox"   name="vehicle3" value="boat" id="vehicle3">
+        <label for="vehicle3">I HAVE A BOAT</label><br>
+    </div>
+   
+    
+</fieldset>
+
+
     </form>
-
 </body>
-
 </html>
