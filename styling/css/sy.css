@@ -1,0 +1,19 @@
+body{
+    background-color:black;
+}
+div{
+    background-color: antiquewhite;
+    font-size: xx-large;
+}
+p{
+    background-color: bisque;
+    color: azure  ;
+    font-size: xx-large;
+}
+.marah{
+    background-color: azure;
+}
+#emad{
+    color: black;
+    background-color: blueviolet;
+}
