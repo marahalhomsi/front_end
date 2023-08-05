@@ -1,0 +1,23 @@
+*{
+    color:bisque
+}
+div{
+    padding: 50%;
+    background-color: aqua;
+    font-size: xx-large;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 20px;
+}
+input{
+    background-color: black;
+    color: red;
+
+}
+h1{
+    font-size: small;
+
+}
+h2{
+    font-size:medium;
+}
