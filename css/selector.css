@@ -1,0 +1,21 @@
+div p strong{
+    color: red;
+}
+div>p{
+    color: green;
+}
+div u1 li {
+    color: red;
+}
+.first .second #third{
+    color: pink;
+}
+.first>.second#fourth{
+    color: purple;
+}
+.first+.c1{
+    color: rgb(9, 194, 194);
+}
+.first~.c2{
+    background-color: rgb(218, 175,175);
+}
