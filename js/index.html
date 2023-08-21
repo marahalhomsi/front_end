@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="/code.jquery.com_jquery-3.7.0.js"></script>
+</head>
+<body>
+    <p id="text">if you click on the hide button i will disappear</p>
+    <button id="hide" class="hide">hide</button>
+    <button id="show">show</button>
+    <button id="toggle">toggle</button>
+    <br>
+    <script>
+        
+        
+        $(".hi").click(function(){
+            $("#text").hide(3000);
+        })
+        $("#show").click(function(){
+            $("#text").show(4000);
+        })
+        $("#toggle").click(function(){
+            $("#text").toggle(1000);
+        })
+    </script>
+    <button id="start">start animation</button>
+    <div style="background-color: black; height: 100px; width: 100px; position: absolute;"></div>
+    <script>
+
+        $(document).ready(function(){
+            $("#start").click(function(){
+
+           
+            var div = $("[style]");
+            div.animate({
+                height : '300px',
+                opacity: '0.4'
+            },"slow");
+            div.animate({
+                width: '300px',
+                opacity: '0.8'
+            }, "slow");
+            div.animate({
+                height: '100px',
+                opacity: '0.4'
+            }, "slow");
+            div.animate({
+                width: "100px",
+                opacity: '0.8'
+            }, "slow");
+        });
+        });
+    </script>
+</body>
+</html>
